@@ -8,7 +8,7 @@ public class rajniController {
 
     @GetMapping("/")
     public String home() {
-        return "Hello, Docker + Spring Boot is working!";
+        return "Hello,This is my working Docker & Spring Boot !";
     }
 
     @GetMapping("/test")
