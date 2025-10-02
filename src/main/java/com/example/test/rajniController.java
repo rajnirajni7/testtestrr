@@ -1,4 +1,4 @@
-package com.example.unit_testing;
+package com.example.test;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
