@@ -19,4 +19,22 @@ public class TestApplication {
     public int multiply(int a, int b) {
         return a * b;
     }
+
+    // Simple REST endpoint
+    @GetMapping("/welcome")
+    public String welcome() {
+        return "Welcome to Test Application!";
+    }
+
+    // REST endpoint to test add
+    @GetMapping("/add")
+    public int addNumbers(@RequestParam int a, @RequestParam int b) {
+        return add(a, b);
+    }
+
+    // REST endpoint to test multiply
+    @GetMapping("/multiply")
+    public int multiplyNumbers(@RequestParam int a, @RequestParam int b) {
+        return multiply(a, b);
+    }
 }
