@@ -8,11 +8,11 @@ public class rajniController {
 
     @GetMapping("/")
     public String home() {
-        return "Hello,This is my working Docker & Spring Boot !";
+        return "Hello,this is rajni !";
     }
 
     @GetMapping("/test")
     public String test() {
-        return "Test endpoint is running!";
+        return "its running";
     }
 }
